@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+solidpython = "*"
+numpy = "*"
+marshmallow = "*"
+marshmallow-dataclass = {extras = ["enum", "union"], version = "*"}
+
+[dev-packages]
+mypy = "*"
+flake8 = "*"
+pytest = "*"
+build = "*"
+pdoc3 = "*"
+isort = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+build = "python -m build"
+test = "pytest -s"
+doc = "pdoc --html -o doc --force mcnp_input_generator"

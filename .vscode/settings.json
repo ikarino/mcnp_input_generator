@@ -1,0 +1,9 @@
+{
+    "python.venvPath": ".venv",
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}

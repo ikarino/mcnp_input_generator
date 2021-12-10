@@ -1,0 +1,43 @@
+test
+c cell definitions
+c anonymous cell
+1 0
+     +1
+     imp:p=0
+c anonymous cell
+2 1 -7.80000e+00
+     -1
+     +2
+     imp:p=1
+c anonymous cell
+3 2 -9.88000e-01
+     -2
+     imp:p=1
+
+c surface definitions
+c world
+1 RPP
+     -1.0000e+02
+     1.0000e+02
+     -1.0000e+02
+     1.0000e+02
+     -1.0000e+02
+     1.0000e+02
+c バウムクーヘン
+2 RCC
+     0.0000e+00
+     0.0000e+00
+     0.0000e+00
+     0.0000e+00
+     0.0000e+00
+     1.0000e+01
+     5.0000e+00
+
+c data cards
+mode p
+c material definitions
+m1 $ mass factions of 'iron'
+        28000 1.00000e+00
+m2 $ mass factions of 'water'
+        1000 2.00000e+00
+        16000 1.00000e+00
