@@ -47,7 +47,7 @@ def test_generator():
                 },
                 {
                     "matname": "water",
-                    "_atomic_fractions": {
+                    "_mass_fractions": {
                         "1000": 2,
                         "16000": 1,
                     },

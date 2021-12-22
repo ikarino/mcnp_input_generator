@@ -47,7 +47,7 @@ _inp = {
             },
             {
                 "matname": "water",
-                "_mass_fractions": {
+                "_atomic_fractions": {
                     "1000": 2,
                     "16000": 1,
                 },
@@ -65,8 +65,16 @@ mig.to_inp("inp")
 # => mcnp input
 ```
 
+## Get It Now
+```
+$ git clone https://github.com/ikarino/mcnp_input_generator
+$ cd mcnp_input_generator
+$ pip install .
+```
 
-## powered by
+
+## Thanks
+this generator would not be possible without these great projects:
 - *geometry visulaization*: [OpenSCAD](https://openscad.org/) and [SolidPython](https://github.com/SolidCode/SolidPython)
 - *inputs deserialization*: [marshmallow](https://marshmallow.readthedocs.io/en/stable/index.html)
 
